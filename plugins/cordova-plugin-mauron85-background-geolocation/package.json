@@ -1,0 +1,94 @@
+{
+  "_args": [
+    [
+      "cordova-plugin-mauron85-background-geolocation",
+      "/home/taner/PhpstormProjects/MTV2.0"
+    ]
+  ],
+  "_from": "cordova-plugin-mauron85-background-geolocation@latest",
+  "_id": "cordova-plugin-mauron85-background-geolocation@2.3.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/cordova-plugin-mauron85-background-geolocation",
+  "_nodeVersion": "6.11.4",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/cordova-plugin-mauron85-background-geolocation-2.3.1.tgz_1509463868772_0.2035910440608859"
+  },
+  "_npmUser": {
+    "email": "marian.hello@gmail.com",
+    "name": "marian.hello"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "cordova-plugin-mauron85-background-geolocation",
+    "raw": "cordova-plugin-mauron85-background-geolocation",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-mauron85-background-geolocation/-/cordova-plugin-mauron85-background-geolocation-2.3.1.tgz",
+  "_shasum": "927132d10d6af7a38393c7383e4369496e7b5255",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-mauron85-background-geolocation",
+  "_where": "/home/taner/PhpstormProjects/MTV2.0",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/mauron85/cordova-plugin-background-geolocation/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-mauron85-background-geolocation",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "dependencies": {},
+  "description": "Cordova Background Geolocation Plugin",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "927132d10d6af7a38393c7383e4369496e7b5255",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-mauron85-background-geolocation/-/cordova-plugin-mauron85-background-geolocation-2.3.1.tgz"
+  },
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "gitHead": "a43e2ed23a11c502f9878e1ab1eb4e1c876ab2f0",
+  "homepage": "https://github.com/mauron85/cordova-plugin-background-geolocation#readme",
+  "keywords": [
+    "background",
+    "cordova",
+    "cordova-android",
+    "cordova-ios",
+    "ecosystem:cordova",
+    "geolocation",
+    "gps",
+    "location",
+    "phonegap"
+  ],
+  "license": "Apache-2.0",
+  "maintainers": [
+    {
+      "name": "marian.hello",
+      "email": "marian.hello@gmail.com"
+    }
+  ],
+  "name": "cordova-plugin-mauron85-background-geolocation",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mauron85/cordova-plugin-background-geolocation.git"
+  },
+  "scripts": {},
+  "version": "2.3.1"
+}

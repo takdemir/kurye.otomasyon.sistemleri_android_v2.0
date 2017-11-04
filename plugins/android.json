@@ -1,0 +1,52 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.tbmyazilim.www"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "com.tbmyazilim.www"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "com.tbmyazilim.www"
+    },
+    "cordova-plugin-x-toast": {
+      "PACKAGE_NAME": "com.tbmyazilim.www"
+    },
+    "cordova-plugin-vibration": {
+      "PACKAGE_NAME": "com.tbmyazilim.www"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "com.tbmyazilim.www"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "com.tbmyazilim.www"
+    },
+    "cordova-plugin-insomnia": {
+      "PACKAGE_NAME": "com.tbmyazilim.www"
+    },
+    "phonegap-plugin-push": {
+      "FCM_VERSION": "11.0.1",
+      "PACKAGE_NAME": "com.tbmyazilim.www"
+    },
+    "cordova-plugin-mauron85-background-geolocation": {
+      "ICON": "@mipmap/icon",
+      "SMALL_ICON": "@mipmap/icon",
+      "ACCOUNT_NAME": "@string/app_name",
+      "ACCOUNT_LABEL": "@string/app_name",
+      "ACCOUNT_TYPE": "$PACKAGE_NAME.account",
+      "CONTENT_AUTHORITY": "$PACKAGE_NAME",
+      "PACKAGE_NAME": "com.tbmyazilim.www"
+    },
+    "cordova-plugin-locationservices": {
+      "PACKAGE_NAME": "com.tbmyazilim.www"
+    }
+  },
+  "dependent_plugins": {}
+}
