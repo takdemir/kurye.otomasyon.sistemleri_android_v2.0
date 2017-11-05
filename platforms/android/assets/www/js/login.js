@@ -164,7 +164,7 @@ var login={
               common.showToast("hata:" + a.responseText);
             },
             success: function(data){
-                //alert(data);
+                alert(data);
                 if(!data.hasError){
                     return true;
                 }

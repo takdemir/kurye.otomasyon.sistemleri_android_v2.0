@@ -239,7 +239,11 @@
         var beepsound = common.getpreferencebyname('beepsound');
         var vibratetime = common.getpreferencebyname('vibratetime');
         $('#beepsound').val(beepsound);
-        $('#vibratetime').val(vibratetime/1000);
+        if(vibratetime % 1000 == 0) {
+            $('#vibratetime').val(vibratetime / 1000);
+        }else{
+            $('#vibratetime').val(vibratetime);
+        }
     })
 </script>
 
