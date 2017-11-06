@@ -120,9 +120,10 @@ var login={
                 if(!data.hasError){
                     login.opensession(data.data.id,data.data.kuryeAdi);
                     login.creategcm();
+                    common.showToast(data.msg,'long','center',0);
 
                 }else{
-                    common.showToast(data.msg,'short','center',0);
+                    common.showToast(data.msg,'long','center',0);
                 }
             }
 
