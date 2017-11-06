@@ -9,7 +9,6 @@ document.addEventListener("deviceready",onDeviceReadyForAjaxjs,false);
 function onDeviceReadyForAjaxjs(){
     //alert("Device Ready");
     <!--Initializing Push Notification-->
-    alert('devicereadyonlogin');
     var push = PushNotification.init({
 
         <!--Setting attributes for Android, IOS and Windows-->
