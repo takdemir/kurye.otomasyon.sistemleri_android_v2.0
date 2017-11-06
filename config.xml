@@ -7,7 +7,7 @@
     <author email="taneryzb@hotmail.com" href="https://tbmsoft.xyz">
         Kurye Otomasyon Sistemleri
     </author>
-    <content src="login.html" />
+    <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
