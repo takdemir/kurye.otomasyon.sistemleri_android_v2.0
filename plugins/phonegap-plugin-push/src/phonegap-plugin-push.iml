@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/android" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="classes13" level="project" />
+    <orderEntry type="library" name="classes28" level="project" />
+    <orderEntry type="library" name="classes14" level="project" />
+    <orderEntry type="library" name="classes24" level="project" />
+    <orderEntry type="library" name="classes8" level="project" />
+    <orderEntry type="library" name="classes22" level="project" />
+    <orderEntry type="library" name="componentClasses" level="project" />
+    <orderEntry type="library" name="classes9" level="project" />
+    <orderEntry type="library" name="combined" level="project" />
+    <orderEntry type="library" name="classes17" level="project" />
+    <orderEntry type="library" name="classes26" level="project" />
+    <orderEntry type="library" name="classes15" level="project" />
+    <orderEntry type="library" name="classes7" level="project" />
+    <orderEntry type="library" name="classes12" level="project" />
+    <orderEntry type="module" module-name="cordova-plugin-compat" />
+    <orderEntry type="module" module-name="CordovaLib" />
+    <orderEntry type="module" module-name="buildConfig1" />
+  </component>
+</module>
