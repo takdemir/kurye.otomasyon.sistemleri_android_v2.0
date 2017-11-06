@@ -47,6 +47,17 @@
 
     <!-- Custom Theme Style -->
     <link href="build/css/custom.min.css" rel="stylesheet">
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            if(window.localStorage.getItem("kuryeID")!="" && window.localStorage.getItem("kuryeID")>0) {
+                mypanel.getjobsOnkurye(window.localStorage.getItem("kuryeID"));
+                mypanel.getdeliveredjobsOnkurye(window.localStorage.getItem("kuryeID"));
+            }else{
+                window.location.href="login.html";
+            }
+        });
+    </script>
 </head>
 
 <body class="nav-md">
