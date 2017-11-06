@@ -67,9 +67,45 @@ function onDeviceReadyForMyPanel(){
 
 
 
+    var callbackFn = function (location) {
+
+        var regid = window.localStorage.getItem("regid");
+        var kuryeID = window.localStorage.getItem("kuryeID");
+        var latitude = location.latitude;
+        var longitude = location.longitude;
 
 
-/*    backgroundGeolocation.configure(callbackFn, failureFn, {
+
+        if (latitude != "" && longitude != "") {
+
+            var data = {"regid": regid, "kuryeID": kuryeID, "latitude": latitude, "longitude": longitude}
+            <!--Passing those values to the insertregid.php file-->
+            $.ajax({
+                url: window.localStorage.getItem("ipurl") + "/insertposition",
+                type: "POST",
+                data: JSON.stringify(data),
+                dataType: 'json',
+                beforeSend: function () {
+                    //alert(regid);
+                },
+                error: function (a, b, c) {
+                    alert("hata:" + a.responseText);
+                },
+                success: function (data) {
+                    //alert(data);
+                    if (!data.hasError) {
+                        return true;
+                    }
+                }
+            });
+
+        }
+
+        backgroundGeolocation.finish();
+
+    };
+
+    backgroundGeolocation.configure(callbackFn, failureFn, {
         desiredAccuracy: 10,
         stationaryRadius: 20,
         distanceFilter: 30,
@@ -91,11 +127,11 @@ function onDeviceReadyForMyPanel(){
         notificationIconLarge: 'mappointer_large',
         notificationIconSmall: 'mappointer_small',
         debug: true
-    });*/
+    });
 
 
 
-    //backgroundGeolocation.start();
+    backgroundGeolocation.start();
 
 
 
