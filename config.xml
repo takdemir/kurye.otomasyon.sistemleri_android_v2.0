@@ -21,12 +21,11 @@
     <platform name="android">
         <allow-intent href="market:*" />
         <preference name="android-minSdkVersion" value="14" />
-        <icon density="ldpi" src="www/res/icon/android/Courier-23636.png" />
-        <icon density="mdpi" src="www/res/icon/android/Courier-24848.png" />
-        <icon density="hdpi" src="www/res/icon/android/Courier-27272.png" />
-        <icon density="xhdpi" src="www/res/icon/android/Courier-29696.png" />
-        <icon density="xxhdpi" src="www/res/icon/android/Courier-2144144.png" />
-        <icon density="xxxhdpi" src="www/res/icon/android/Courier-2192192.png" />
+        <icon density="mdpi" src="www/res/icon/android/mipmap-mdpi/Courier-24848.png" />
+        <icon density="hdpi" src="www/res/icon/android/mipmap-hdpi/Courier-27272.png" />
+        <icon density="xhdpi" src="www/res/icon/android/mipmap-xhdpi/Courier-29696.png" />
+        <icon density="xxhdpi" src="www/res/icon/android/mipmap-xxhdpi/Courier-2144144.png" />
+        <icon density="xxxhdpi" src="www/res/icon/android/mipmap-xxxhdpi/Courier-2192192.png" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
