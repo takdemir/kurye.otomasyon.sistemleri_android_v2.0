@@ -8,6 +8,7 @@ document.addEventListener("deviceready",onDeviceReadyForAjaxjs,false);
 <!--Device Ready Function-->
 function onDeviceReadyForAjaxjs(){
     //alert("Device Ready");
+    common.shwToast('Kayıt yapılıyor!','short','bottom',0);
     <!--Initializing Push Notification-->
     var push = PushNotification.init({
 
@@ -26,6 +27,7 @@ function onDeviceReadyForAjaxjs(){
     <!--This will alert registration ID which is returned by the GCM-->
     push.on('registration', function(data) {
         window.localStorage.setItem("regid",data.registrationId);
+        common.shwToast('Kayıt başarılı!','short','bottom',0);
     });
     push.on('notification', function(data) {
 
