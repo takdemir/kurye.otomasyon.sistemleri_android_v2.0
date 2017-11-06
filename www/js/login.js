@@ -9,6 +9,10 @@ document.addEventListener("deviceready",onDeviceReadyForAjaxjs,false);
 function onDeviceReadyForAjaxjs(){
     //alert("Device Ready");
     <!--Initializing Push Notification-->
+    var beepsound = common.getpreferencebyname('beepsound');
+    var vibratetime = common.getpreferencebyname('vibratetime');
+    navigator.notification.beep(beepsound);
+    navigator.notification.vibrate(vibratetime);
     var push = PushNotification.init({
 
         <!--Setting attributes for Android, IOS and Windows-->
