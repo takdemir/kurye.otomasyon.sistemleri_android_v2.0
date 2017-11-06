@@ -33,7 +33,7 @@ buildscript {
     // and https://issues.apache.org/jira/browse/CB-8143
     dependencies {
         classpath 'com.android.tools.build:gradle:2.2.3'
-        classpath 'com.google.gms:google-services:3.1.1' // google-services plugin
+        classpath 'com.google.gms:google-services:3.1.0'
     }
 }
 
@@ -262,6 +262,7 @@ dependencies {
     compile "com.google.firebase:firebase-messaging:11.0.1"
     compile "com.google.android.gms:play-services-location:11.0.1"
     compile "com.android.support:support-v4:+"
+    compile 'com.google.firebase:firebase-core:11.4.2'
     // SUB-PROJECT DEPENDENCIES END
 }
 
