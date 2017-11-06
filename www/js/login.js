@@ -150,27 +150,30 @@ var login={
         var regid = window.localStorage.getItem("regid");
         var kuryeID = window.localStorage.getItem("kuryeID");
         var email = "";
-
-        var data={"regid": regid,"kuryeID": kuryeID, "email":email}
-        <!--Passing those values to the insertregid.php file-->
-        $.ajax({
-            url: window.localStorage.getItem("ipurl")+"/insertregid",
-            type: "POST",
-            data: JSON.stringify(data),
-            dataType:'json',
-            beforeSend: function () {
-                //alert(regid);
-            },
-            error: function (a,b,c) {
-              common.showToast("hata:" + a.responseText);
-            },
-            success: function(data){
-                //alert(data);
-                if(!data.hasError){
-                    return true;
+        if(regid!="" && regid!=null && kuryeID!="" && kuryeID>0) {
+            var data = {"regid": regid, "kuryeID": kuryeID, "email": email}
+            <!--Passing those values to the insertregid.php file-->
+            $.ajax({
+                url: window.localStorage.getItem("ipurl") + "/insertregid",
+                type: "POST",
+                data: JSON.stringify(data),
+                dataType: 'json',
+                beforeSend: function () {
+                    //alert(regid);
+                },
+                error: function (a, b, c) {
+                    common.showToast("hata:" + a.responseText);
+                },
+                success: function (data) {
+                    //alert(data);
+                    if (!data.hasError) {
+                        return true;
+                    }
                 }
-            }
-        });
+            });
+        }else{
+            common.showToast('RegID alınamadı! Lütfen yöneticinize başvurun!','long','center',0);
+        }
 
     },
     setlocations: function () {
